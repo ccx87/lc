@@ -1,0 +1,254 @@
+.user-login-option {
+
+    .logo {
+        text-align: center;
+
+        > i {
+            display: inline-block;
+            width: 80px;
+            height: 59px;
+            background-image: url(../../img/default-logo.png);
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+#container {
+    position: absolute;
+    top: 0;
+    left: 0;    
+}
+
+.container-layer {
+    z-index: 9997;
+    width: 100%;
+    height: 100%; 
+    font-family: "宋体";
+    overflow: hidden;
+
+    p {
+        position: relative;
+    } 
+
+    .close {
+        right: 13px;
+        top: -7px;
+        z-index: 9998;
+        cursor: pointer;
+        text-align: center;
+        font-size: 0px;
+        vertical-align: middle;
+    }
+
+    .layer {
+        color: #666;
+        padding: 0 30px;
+        margin-top: 88px;   
+    }
+
+    .p-logo {
+        text-align: center;
+    }
+
+    .p-tit {
+        text-align: center;
+        margin: 20px 0 10px 0;
+        font-size: 15px;        
+    }
+
+    .p-third {
+        top: -10px;
+        text-align: center;
+
+        a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    .p-toggle {
+        text-align: right;
+        margin: 5px 0 10px 0;
+
+        .toggle {
+            color: #0c73c2;
+            margin-left: 5px; 
+        }        
+    } 
+
+    .line {
+        width:20%;
+        height: 1px;
+        background: #E1E1E1;
+        display: inline-block;
+    }
+
+    .line.l {
+        left: 0;
+    }
+
+    .line.r {
+        right: 0
+    } 
+
+    .title {
+        position: relative;
+        top: -10px;
+    }  
+
+    .mod-reg {
+        p {
+            height: 55px;
+            overflow: hidden;
+
+            .sp-msg {
+                display: block;
+                margin: 0 5px;
+            }            
+        }
+        p.p-2 {
+            height: 50px;
+
+            .go-regist {
+                color: #666;
+                display: block;
+                border-radius: 5px;
+                line-height: 34px;
+                font-size: 15px;
+                text-align: center;
+                border: 1px solid #e1e1e1;
+            } 
+
+            .go-regist:hover {
+                color: #333;
+            }
+
+        }
+
+        p.p-1 {
+            color: #666;
+            height: 28px;
+
+            a:hover {
+                text-decoration: underline;
+            }            
+        } 
+
+        .check-lable {
+            cursor: pointer;
+        }
+
+        .jump-login {
+            color: #666;
+            display: block;
+            text-align: right;
+        }
+
+        .text-input {
+            text-indent: 5px;
+            border-radius: 5px;
+            width: 99.4%;
+            height: 34px;
+            display:inline-block;
+            background: #FFF;
+            font-size: 13px;
+            color: #666;    
+            border: 1px solid #E1E1E1;
+            background: #F5F5F5;
+        }
+
+        .text-input:focus {
+            background: #FFF;
+            outline: none;
+        }
+
+        .text-input.text-input-codes {
+            width: 45%;
+        } 
+
+        .btn-input {
+            width: 99.4%;
+            height: 36px;
+            cursor:pointer;
+            border-radius: 5px;
+            border: 1px solid #E1E1E1;  
+        }
+
+        .btn-input.btn-input-codes {
+            width: 45%;
+            margin-left: 9%;
+            color: #666;
+            background: #F0F0F0;
+        } 
+
+        .btn-input.btn-input-submit {
+            color: #FFF;
+            font-size: 14px;
+            font-weight: 700;
+            border-color: #0874c5;
+            background: -webkit-linear-gradient(#0c75c3, #0874c5) !important;
+            background: -o-linear-gradient(#0c75c3, #0874c5)!important;
+            background: -moz-linear-gradient(#0c75c3, #0874c5)!important;
+            background: linear-gradient(#0c75c3, #0874c5)!important; 
+        }
+
+        .btn-input.btn-input-submit:hover,
+        .btn-input.btn-input-submit:disabled {
+            opacity: .8;
+        }
+
+        .reg-msg {
+            a {
+                color: #0C73C2;
+            }
+        }                                                                                             
+    }
+
+    .success {
+        color: #0C73C2;
+        font-weight: 700;
+        margin: 0 5px;
+    }
+
+    .col-red {
+        margin: 0 5px;
+    } 
+
+    .s-p-1 {
+        margin: 5px 0;
+        text-align: center;
+        font-size: 14px;
+    } 
+
+    .p-back {
+        color: #0C73C2;
+        margin: 30px 0;
+        text-align: center;
+    }                                  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

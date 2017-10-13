@@ -1,0 +1,48 @@
+.home {
+    .home-main.container {
+	    padding: 0;
+	}
+
+    .home-main {
+        margin-top: -62px;
+        
+        .banner {
+            height: 480px;
+            overflow: hidden;
+
+            .banner-bg {
+                top: 0;
+                left: 50%;
+                width: 1920px;
+                height: 480px;
+                margin-left: -960px;
+		        background-image: url(../../img/home-banner.jpg);
+		        background-repeat: no-repeat;
+            }
+
+            .banner-center {
+                
+                .title,
+                .text {
+                    margin: -80px 0 20px;
+                    color: #FFF;
+                }
+
+                .title {
+                    font-size: 50px;
+                }
+
+                .text {
+                    font-size: 16px;
+                    margin: 0 0 30px; 
+                }
+            } 
+
+            .banner-right {
+                top: 96px;
+                right: 100px;
+            }
+        }
+    }
+
+}
